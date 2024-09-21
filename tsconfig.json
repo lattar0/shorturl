@@ -1,11 +1,14 @@
 {
   "compilerOptions": {
-    "target": "es2017",
-    "module": "commonjs",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
+    "target": "ES2017",
+    "module": "CommonJS",
     "strict": false,
+    "esModuleInterop": true,
     "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./src",
     "typeRoots": ["./src/@types", "node_modules/@types"]
-  }
+  },
+  "include": ["src"]
 }
